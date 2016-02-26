@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A96C8B91C80801300F0566B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C8B81C80801300F0566B /* AppDelegate.swift */; };
-		0A96C8BB1C80801300F0566B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C8BA1C80801300F0566B /* ViewController.swift */; };
+		0A06094A1C80F09D0098BC75 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0609481C80F09D0098BC75 /* FBSDKCoreKit.framework */; };
+		0A06094B1C80F09D0098BC75 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0609491C80F09D0098BC75 /* FBSDKLoginKit.framework */; };
+		0A06094F1C8106650098BC75 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06094E1C8106650098BC75 /* UIViewExtension.swift */; };
 		0A96C8BE1C80801300F0566B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A96C8BC1C80801300F0566B /* Main.storyboard */; };
 		0A96C8C01C80801300F0566B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A96C8BF1C80801300F0566B /* Assets.xcassets */; };
 		0A96C8C31C80801300F0566B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A96C8C11C80801300F0566B /* LaunchScreen.storyboard */; };
 		0A96C8CE1C80801300F0566B /* DevengersIRGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C8CD1C80801300F0566B /* DevengersIRGTests.swift */; };
 		0A96C8D91C80801300F0566B /* DevengersIRGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C8D81C80801300F0566B /* DevengersIRGUITests.swift */; };
+		0A96C8F21C80825400F0566B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C8F11C80825400F0566B /* AppDelegate.swift */; };
+		0A96C8F41C80825F00F0566B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C8F31C80825F00F0566B /* GameViewController.swift */; };
+		0A96C8F61C80826C00F0566B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C8F51C80826C00F0566B /* Player.swift */; };
+		0A96C8FA1C808B7100F0566B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C8F91C808B7100F0566B /* Config.swift */; };
+		0A96C9061C80B0F800F0566B /* GIFCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9051C80B0F800F0566B /* GIFCollectionViewCell.swift */; };
+		0A96C90A1C80B7FA00F0566B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9081C80B7FA00F0566B /* API.swift */; };
+		0A96C90B1C80B7FA00F0566B /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9091C80B7FA00F0566B /* RequestManager.swift */; };
+		0A96C91A1C80B83100F0566B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C90E1C80B83100F0566B /* AFHTTPSessionManager.m */; };
+		0A96C91B1C80B83100F0566B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9111C80B83100F0566B /* AFNetworkReachabilityManager.m */; };
+		0A96C91C1C80B83100F0566B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9131C80B83100F0566B /* AFSecurityPolicy.m */; };
+		0A96C91D1C80B83100F0566B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9151C80B83100F0566B /* AFURLRequestSerialization.m */; };
+		0A96C91E1C80B83100F0566B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9171C80B83100F0566B /* AFURLResponseSerialization.m */; };
+		0A96C91F1C80B83100F0566B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9191C80B83100F0566B /* AFURLSessionManager.m */; };
+		0A96C9241C80B9A700F0566B /* PlayerProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9231C80B9A700F0566B /* PlayerProfileView.swift */; };
+		0A96C9261C80C08B00F0566B /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9251C80C08B00F0566B /* VoteViewController.swift */; };
+		0A96C9281C80C56100F0566B /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9271C80C56100F0566B /* WinnerViewController.swift */; };
+		0A96C92A1C80C8E200F0566B /* WinnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C9291C80C8E200F0566B /* WinnerTableViewCell.swift */; };
+		0A96C92C1C80CE4E00F0566B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C92B1C80CE4E00F0566B /* BaseViewController.swift */; };
+		0A96C92E1C80D0A800F0566B /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96C92D1C80D0A800F0566B /* StartGameViewController.swift */; };
+		0ACC054F1C80D3FE00E35CDA /* MainColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC054E1C80D3FE00E35CDA /* MainColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0609481C80F09D0098BC75 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0A0609491C80F09D0098BC75 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0A06094E1C8106650098BC75 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		0A96C8B51C80801300F0566B /* DevengersIRG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevengersIRG.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A96C8B81C80801300F0566B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A96C8BA1C80801300F0566B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A96C8BD1C80801300F0566B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A96C8BF1C80801300F0566B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A96C8C21C80801300F0566B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +69,34 @@
 		0A96C8D41C80801300F0566B /* DevengersIRGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevengersIRGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A96C8D81C80801300F0566B /* DevengersIRGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevengersIRGUITests.swift; sourceTree = "<group>"; };
 		0A96C8DA1C80801300F0566B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A96C8F11C80825400F0566B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppDelegate/AppDelegate.swift; sourceTree = "<group>"; };
+		0A96C8F31C80825F00F0566B /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = Controller/GameViewController.swift; sourceTree = "<group>"; };
+		0A96C8F51C80826C00F0566B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Model/Player.swift; sourceTree = "<group>"; };
+		0A96C8F91C808B7100F0566B /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		0A96C9051C80B0F800F0566B /* GIFCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A96C9081C80B7FA00F0566B /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0A96C9091C80B7FA00F0566B /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		0A96C90D1C80B83100F0566B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		0A96C90E1C80B83100F0566B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		0A96C90F1C80B83100F0566B /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		0A96C9101C80B83100F0566B /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		0A96C9111C80B83100F0566B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		0A96C9121C80B83100F0566B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		0A96C9131C80B83100F0566B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		0A96C9141C80B83100F0566B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		0A96C9151C80B83100F0566B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		0A96C9161C80B83100F0566B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		0A96C9171C80B83100F0566B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		0A96C9181C80B83100F0566B /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		0A96C9191C80B83100F0566B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		0A96C9221C80B8A100F0566B /* DevengersIRG-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DevengersIRG-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A96C9231C80B9A700F0566B /* PlayerProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerProfileView.swift; path = View/PlayerProfileView.swift; sourceTree = "<group>"; };
+		0A96C9251C80C08B00F0566B /* VoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoteViewController.swift; path = Controller/VoteViewController.swift; sourceTree = "<group>"; };
+		0A96C9271C80C56100F0566B /* WinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WinnerViewController.swift; path = Controller/WinnerViewController.swift; sourceTree = "<group>"; };
+		0A96C9291C80C8E200F0566B /* WinnerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WinnerTableViewCell.swift; path = View/WinnerTableViewCell.swift; sourceTree = "<group>"; };
+		0A96C92B1C80CE4E00F0566B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Controller/BaseViewController.swift; sourceTree = "<group>"; };
+		0A96C92D1C80D0A800F0566B /* StartGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartGameViewController.swift; path = Controller/StartGameViewController.swift; sourceTree = "<group>"; };
+		0ACC054E1C80D3FE00E35CDA /* MainColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A06094B1C80F09D0098BC75 /* FBSDKLoginKit.framework in Frameworks */,
+				0A06094A1C80F09D0098BC75 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +149,12 @@
 		0A96C8B71C80801300F0566B /* DevengersIRG */ = {
 			isa = PBXGroup;
 			children = (
-				0A96C8B81C80801300F0566B /* AppDelegate.swift */,
-				0A96C8BA1C80801300F0566B /* ViewController.swift */,
+				0ACC05501C80DBFD00E35CDA /* Frameworks */,
+				0A96C8E71C80802E00F0566B /* Model */,
+				0A96C8E81C80803200F0566B /* View */,
+				0A96C8E61C80801D00F0566B /* Controllers */,
+				0A96C8E91C80803C00F0566B /* Suporting Files */,
 				0A96C8BC1C80801300F0566B /* Main.storyboard */,
-				0A96C8BF1C80801300F0566B /* Assets.xcassets */,
-				0A96C8C11C80801300F0566B /* LaunchScreen.storyboard */,
-				0A96C8C41C80801300F0566B /* Info.plist */,
 			);
 			path = DevengersIRG;
 			sourceTree = "<group>";
@@ -123,6 +175,115 @@
 				0A96C8DA1C80801300F0566B /* Info.plist */,
 			);
 			path = DevengersIRGUITests;
+			sourceTree = "<group>";
+		};
+		0A96C8E61C80801D00F0566B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A96C92B1C80CE4E00F0566B /* BaseViewController.swift */,
+				0A96C92D1C80D0A800F0566B /* StartGameViewController.swift */,
+				0A96C8F31C80825F00F0566B /* GameViewController.swift */,
+				0A96C9251C80C08B00F0566B /* VoteViewController.swift */,
+				0A96C9271C80C56100F0566B /* WinnerViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0A96C8E71C80802E00F0566B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A96C8F51C80826C00F0566B /* Player.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0A96C8E81C80803200F0566B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A96C9051C80B0F800F0566B /* GIFCollectionViewCell.swift */,
+				0A96C9231C80B9A700F0566B /* PlayerProfileView.swift */,
+				0A96C9291C80C8E200F0566B /* WinnerTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0A96C8E91C80803C00F0566B /* Suporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A96C8EC1C80807500F0566B /* Extentions */,
+				0A96C8EB1C80806D00F0566B /* Config */,
+				0A96C8EA1C80804B00F0566B /* AppDelegate */,
+				0A96C9071C80B7FA00F0566B /* RequestManager */,
+				0A96C9221C80B8A100F0566B /* DevengersIRG-Bridging-Header.h */,
+				0A96C8BF1C80801300F0566B /* Assets.xcassets */,
+				0A96C8C11C80801300F0566B /* LaunchScreen.storyboard */,
+				0A96C8C41C80801300F0566B /* Info.plist */,
+			);
+			name = "Suporting Files";
+			sourceTree = "<group>";
+		};
+		0A96C8EA1C80804B00F0566B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A96C8F11C80825400F0566B /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0A96C8EB1C80806D00F0566B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC054E1C80D3FE00E35CDA /* MainColor.swift */,
+				0A96C8F91C808B7100F0566B /* Config.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		0A96C8EC1C80807500F0566B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				0A06094E1C8106650098BC75 /* UIViewExtension.swift */,
+			);
+			name = Extentions;
+			sourceTree = "<group>";
+		};
+		0A96C9071C80B7FA00F0566B /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				0A96C9081C80B7FA00F0566B /* API.swift */,
+				0A96C9091C80B7FA00F0566B /* RequestManager.swift */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		0A96C90C1C80B83100F0566B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0A96C90D1C80B83100F0566B /* AFHTTPSessionManager.h */,
+				0A96C90E1C80B83100F0566B /* AFHTTPSessionManager.m */,
+				0A96C90F1C80B83100F0566B /* AFNetworking.h */,
+				0A96C9101C80B83100F0566B /* AFNetworkReachabilityManager.h */,
+				0A96C9111C80B83100F0566B /* AFNetworkReachabilityManager.m */,
+				0A96C9121C80B83100F0566B /* AFSecurityPolicy.h */,
+				0A96C9131C80B83100F0566B /* AFSecurityPolicy.m */,
+				0A96C9141C80B83100F0566B /* AFURLRequestSerialization.h */,
+				0A96C9151C80B83100F0566B /* AFURLRequestSerialization.m */,
+				0A96C9161C80B83100F0566B /* AFURLResponseSerialization.h */,
+				0A96C9171C80B83100F0566B /* AFURLResponseSerialization.m */,
+				0A96C9181C80B83100F0566B /* AFURLSessionManager.h */,
+				0A96C9191C80B83100F0566B /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		0ACC05501C80DBFD00E35CDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0609481C80F09D0098BC75 /* FBSDKCoreKit.framework */,
+				0A0609491C80F09D0098BC75 /* FBSDKLoginKit.framework */,
+				0A96C90C1C80B83100F0566B /* AFNetworking */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +354,7 @@
 				TargetAttributes = {
 					0A96C8B41C80801300F0566B = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3E8KQNRV6Y;
 					};
 					0A96C8C81C80801300F0566B = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -256,8 +418,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A96C8BB1C80801300F0566B /* ViewController.swift in Sources */,
-				0A96C8B91C80801300F0566B /* AppDelegate.swift in Sources */,
+				0A96C92E1C80D0A800F0566B /* StartGameViewController.swift in Sources */,
+				0A96C8F41C80825F00F0566B /* GameViewController.swift in Sources */,
+				0A96C91B1C80B83100F0566B /* AFNetworkReachabilityManager.m in Sources */,
+				0A96C92A1C80C8E200F0566B /* WinnerTableViewCell.swift in Sources */,
+				0A96C8F21C80825400F0566B /* AppDelegate.swift in Sources */,
+				0A96C9241C80B9A700F0566B /* PlayerProfileView.swift in Sources */,
+				0A96C92C1C80CE4E00F0566B /* BaseViewController.swift in Sources */,
+				0A96C8F61C80826C00F0566B /* Player.swift in Sources */,
+				0A96C8FA1C808B7100F0566B /* Config.swift in Sources */,
+				0A96C90B1C80B7FA00F0566B /* RequestManager.swift in Sources */,
+				0ACC054F1C80D3FE00E35CDA /* MainColor.swift in Sources */,
+				0A96C9281C80C56100F0566B /* WinnerViewController.swift in Sources */,
+				0A96C91C1C80B83100F0566B /* AFSecurityPolicy.m in Sources */,
+				0A96C91D1C80B83100F0566B /* AFURLRequestSerialization.m in Sources */,
+				0A96C90A1C80B7FA00F0566B /* API.swift in Sources */,
+				0A96C9061C80B0F800F0566B /* GIFCollectionViewCell.swift in Sources */,
+				0A96C91E1C80B83100F0566B /* AFURLResponseSerialization.m in Sources */,
+				0A96C9261C80C08B00F0566B /* VoteViewController.swift in Sources */,
+				0A06094F1C8106650098BC75 /* UIViewExtension.swift in Sources */,
+				0A96C91F1C80B83100F0566B /* AFURLSessionManager.m in Sources */,
+				0A96C91A1C80B83100F0566B /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +533,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "./DevengersIRG/DevengersIRG-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -390,6 +572,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "./DevengersIRG/DevengersIRG-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -399,10 +582,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DevengersIRG/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK",
+					"$(PROJECT_DIR)/DevengersIRG/MoPubSDK/AdNetworkSupport/Millennial/SDK",
+					"$(PROJECT_DIR)/DevengersIRG",
+				);
 				INFOPLIST_FILE = DevengersIRG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DevengersIRG/Twitter-OAuth-iPhone-master/Twitter+OAuth/Libraries",
+					"&",
+					Headers,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Devengers.DevengersIRG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -410,10 +607,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DevengersIRG/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK",
+					"$(PROJECT_DIR)/DevengersIRG/MoPubSDK/AdNetworkSupport/Millennial/SDK",
+					"$(PROJECT_DIR)/DevengersIRG",
+				);
 				INFOPLIST_FILE = DevengersIRG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DevengersIRG/Twitter-OAuth-iPhone-master/Twitter+OAuth/Libraries",
+					"&",
+					Headers,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Devengers.DevengersIRG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +695,7 @@
 				0A96C8DF1C80801300F0566B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A96C8E01C80801300F0566B /* Build configuration list for PBXNativeTarget "DevengersIRGTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +704,7 @@
 				0A96C8E21C80801300F0566B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A96C8E31C80801300F0566B /* Build configuration list for PBXNativeTarget "DevengersIRGUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +713,7 @@
 				0A96C8E51C80801300F0566B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
